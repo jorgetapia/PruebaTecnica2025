@@ -1,0 +1,36 @@
+use DBEjercicio4;
+
+db.eventosSensores.insertMany([
+  {
+    DispositivoID: 1,
+    FechaHora: "2025-01-08 08:30:00",
+    Valor: 25.3
+  },
+  {
+    DispositivoID: 1,
+    FechaHora: "2025-01-08 08:45:00",
+    Valor: 26.1
+  },
+  {
+    DispositivoID: 2,
+    FechaHora: "2025-01-08 08:50:00",
+    Valor: 37.8
+  },
+  {
+    DispositivoID: 2,
+    FechaHora: "2025-01-08 09:00:00",
+    Valor: 30.2
+  }
+]);
+
+
+
+
+db.eventosSensores.aggregate([
+  {
+    $group: {
+      _id: "$DispositivoID",
+      PromedioValor: { $avg: "$Valor" }
+    }
+  }
+]);
