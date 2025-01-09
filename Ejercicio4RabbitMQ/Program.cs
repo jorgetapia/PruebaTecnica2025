@@ -14,8 +14,8 @@ namespace Ejercicio4RabbitMQ
             var factory = new ConnectionFactory()
             {
                 HostName = "localhost",
-                UserName = "prueba",
-                Password = "prueba"
+                UserName = "guest",
+                Password = "guest"
             };
 
             // establecemos la conexión y creamos el canal
