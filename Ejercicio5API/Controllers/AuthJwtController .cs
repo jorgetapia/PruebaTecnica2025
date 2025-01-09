@@ -4,7 +4,7 @@ using System.IdentityModel.Tokens.Jwt;
 using System.Security.Claims;
 using System.Text;
 
-namespace Ejercicio5API.Controllers
+namespace Ejercicio6API.Controllers
 {
     [ApiController]
     [Route("api/[controller]")]

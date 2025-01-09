@@ -1,7 +1,7 @@
 using Microsoft.AspNetCore.Authorization;
 using Microsoft.AspNetCore.Mvc;
 
-namespace Ejercicio5API.Controllers
+namespace Ejercicio6API.Controllers
 {
     [ApiController]
     [Route("api/[controller]")]
