@@ -20,7 +20,7 @@ Entregable: Código comentado, se creo un proyecto con una clase ejemplo, esta n
 
 
 Ejercicio 5: MongoDB
-Entregable: Script JSON con el modelo y consulta de agregación.
+Entregable: Script JSON con el modelo y consulta de agregación, se agrego un archivo en raíz de este repositorio para atender y requerimiento.
 
 
 Ejercicio 6:APIs REST
